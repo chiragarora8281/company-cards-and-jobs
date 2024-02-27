@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+.company-list-container {
+    border: 1px solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 60px;
+  }
+  
+  .company-list {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .company-list button {
+    height: 100px;
+    width: 300px;
+    background-color:maroon;
+    color: #fff;
+    border: none;
+    padding: 40px;
+    margin-left: 300px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    box-shadow: 1px 1px 1px 1px white;
+    font-size: 20px;
+  }
+  
+  .company-list button:hover {
+    background-color: #bd5656;
+    box-shadow: 1px 2px 1px 2px white;
+  }
+  
+  .selected-company-details {
+    flex-grow: 1;
+    margin-left: 20px;
+  }
+  
+  .selected-company-details p {
+    font-size: 18px;
+    color: #333;
+  }
+
+/* ############################################################################# */
+.navbar{
+    height: 100px;
+    width: 100%;
+    background-color: maroon;
+    text-align: center;
+    line-height: 100px;
+    font-size: 40px;
+    color: white;
+    box-shadow: 1px 2px 2px 2px white;
+}
+.company-details{
+    height: 580px;
+    width: 750px;
+    margin-right:300px;
+    border: 1px solid white;
+    background-color: maroon;
+}
+#company-name{
+    height: 90px;
+    width: 750px;
+    color: white;
+    /* border: 1px solid white; */
+    font-size: 35px;
+    text-align: center;
+    font-weight: 300;
+    line-height: 110px;
+}
+#info{
+    display: flex;
+    flex-direction: column;
+    /* margin: 30px 80px 80px 130px; */
+    padding: 20px;
+}
+.info1{
+    height: 50px;
+    width: 400px;
+    background-color:maroon;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 70px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    box-shadow: 1px 1px 1px 1px white;
+    font-size: 25px;
+}
+#apply{
+    height: 50px;
+    width: 80px;
+    padding: 15px;
+    border-radius: 25%;
+    margin-top: 20px;
+    margin-left: 350px;
+}
+#apply:hover{
+    box-shadow: 2px 2px 2px 2px white;
+}
